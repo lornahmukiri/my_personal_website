@@ -2,5 +2,43 @@ body{
     background: pink;
     font-size: 20px;
     font-family: Helvetica;
+    background-image: ;
 
+}
+* {
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 50px;
+    background: rgb(216, 142, 142);
+    border: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    text-align: center;
+}
+section {
+    border: 2px solid rgb(216, 142, 142);
+    height: 100px;
+}
+
+.firstpart{
+    border: 2px solid rgb(216, 142, 142);
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+
+.secondpart{
+    border: 2px solid rgb(216, 142, 142);
+    height: 200px;
+    width: 70%;
+    float: left;
+}
+
+footer{
+    border: 2px rgb(216, 142, 142);
+    height: 100px;
+    clear:both;
+    text-align: right;
 }
